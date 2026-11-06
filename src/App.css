@@ -1,0 +1,31 @@
+.app-container {
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.sidebar-panel,
+.content-panel {
+  border: 1px solid #e0e7f0;
+  box-shadow: 0 7px 24px rgb(21 45 77 / 5%);
+  overflow: hidden;
+}
+
+.sidebar-panel {
+  position: sticky;
+  top: 20px;
+}
+
+.content-panel {
+  min-height: 500px;
+  padding: 28px;
+}
+
+@media (max-width: 899px) {
+  .sidebar-panel {
+    position: static;
+  }
+  .content-panel {
+    padding: 18px;
+    min-height: 300px;
+  }
+}

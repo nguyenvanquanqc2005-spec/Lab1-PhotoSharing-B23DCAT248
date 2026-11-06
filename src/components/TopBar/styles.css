@@ -1,0 +1,23 @@
+.topbar-appbar {
+  background: #254d7e;
+}
+.topbar-toolbar {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  min-height: 74px;
+}
+.topbar-context {
+  text-align: right;
+  overflow-wrap: anywhere;
+}
+@media (max-width: 600px) {
+  .topbar-toolbar {
+    align-items: flex-start;
+    padding: 12px 0;
+    flex-direction: column;
+  }
+  .topbar-context {
+    text-align: left;
+  }
+}

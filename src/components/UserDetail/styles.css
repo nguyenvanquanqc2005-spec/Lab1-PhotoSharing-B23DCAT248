@@ -1,0 +1,11 @@
+.profile-header {
+  flex-wrap: wrap;
+}
+.profile-avatar {
+  width: 68px !important;
+  height: 68px !important;
+  background: #dceafd !important;
+  color: #254d7e !important;
+  font-size: 24px !important;
+  font-weight: 700;
+}

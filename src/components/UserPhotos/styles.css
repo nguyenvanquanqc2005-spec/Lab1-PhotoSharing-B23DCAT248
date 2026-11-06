@@ -1,0 +1,16 @@
+.photo-card {
+  border-radius: 12px !important;
+}
+.photo-img {
+  display: block;
+  height: auto;
+  max-height: 540px;
+  width: 100%;
+  object-fit: contain;
+  background: #edf2f7;
+}
+.comment-box {
+  padding: 16px;
+  background: #f4f7fb;
+  border-radius: 10px;
+}
